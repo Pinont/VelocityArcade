@@ -69,7 +69,7 @@
         <dependency>
             <groupId>com.github.Pinont</groupId>
             <artifactId>SingularityLib</artifactId>
-            <version>API-SNAPSHOT</version>
+            <version>SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
         <dependency>

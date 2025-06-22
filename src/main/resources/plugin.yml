@@ -2,4 +2,4 @@ name: Velocaddy
 version: '1.0-SNAPSHOT'
 main: com.pinont.plugins.VeloArcade
 api-version: '1.21'
-bootstrapper: com.pinont.plugins.Bootstrap
+prefix: Arcade

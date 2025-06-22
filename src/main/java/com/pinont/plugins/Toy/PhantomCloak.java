@@ -1,5 +1,6 @@
 package com.pinont.plugins.Toy;
 
+import com.pinont.lib.api.annotation.AutoRegister;
 import com.pinont.lib.api.items.CustomItem;
 import com.pinont.lib.api.items.ItemCreator;
 import com.pinont.lib.api.items.ItemInteraction;
@@ -11,13 +12,14 @@ import org.bukkit.potion.PotionEffectType;
 
 import java.util.Set;
 
+@AutoRegister
 public class PhantomCloak extends CustomItem {
     @Override
     public ItemInteraction getInteraction() {
         return new ItemInteraction() {
             @Override
             public String getName() {
-                return "phantomCloak";
+                return "PHANTOM CLOAK";
             }
 
             @Override
