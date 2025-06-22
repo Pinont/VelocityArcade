@@ -2,7 +2,6 @@ package com.pinont.plugins.events;
 
 import com.pinont.lib.api.annotation.AutoRegister;
 import com.pinont.lib.api.utils.Common;
-import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.Sound;
 import org.bukkit.entity.Firework;
@@ -14,8 +13,6 @@ import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerMoveEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.metadata.FixedMetadataValue;
-import org.bukkit.scheduler.BukkitRunnable;
-import org.bukkit.scheduler.BukkitScheduler;
 
 import static com.pinont.lib.api.utils.Common.plugin;
 import static org.bukkit.Bukkit.getServer;

@@ -18,7 +18,7 @@ import java.util.Random;
 import java.util.Set;
 
 @AutoRegister
-public class Ball implements CustomItem, Listener {
+public class Ball extends CustomItem implements Listener {
     @Override
     public ItemCreator register() {
         Random random = new Random();

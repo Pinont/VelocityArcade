@@ -23,7 +23,7 @@ import java.util.Set;
 import static com.pinont.lib.api.utils.Common.plugin;
 
 @AutoRegister
-public class IceBomb implements CustomItem, Listener {
+public class IceBomb extends CustomItem implements Listener {
     @Override
     public ItemInteraction getInteraction() {
         return new ItemInteraction() {

@@ -18,15 +18,12 @@ import org.bukkit.event.entity.ProjectileHitEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.metadata.FixedMetadataValue;
 import org.bukkit.metadata.MetadataValue;
-import org.bukkit.potion.PotionEffect;
-import org.bukkit.potion.PotionEffectType;
 import org.bukkit.projectiles.ProjectileSource;
 import org.bukkit.util.BlockIterator;
 import org.bukkit.util.Vector;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
-import java.util.Random;
 
 import static com.pinont.lib.api.utils.Common.plugin;
 
@@ -34,7 +31,7 @@ import static com.pinont.lib.api.utils.Common.plugin;
 // ref: https://github.com/ChasingClub/Core/blob/main/Core-Spaceball/src/main/java/cc/Machanic/BouncingArrow.java
 
 @AutoRegister
-public class BouncingArrow implements CustomItem, Listener {
+public class BouncingArrow extends CustomItem implements Listener {
     @Override
     public ItemInteraction getInteraction() {
         return null;
